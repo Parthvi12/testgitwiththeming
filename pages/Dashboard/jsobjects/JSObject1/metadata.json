@@ -6,7 +6,6 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tupdateChart: async () => {\n\t\tawait storeValue('type',typePieChart.selectedDataPoint);\n\t\tassetsByMake.run()\n\t\treturn(assetsByMake.data)}\n}",
     "variables": [],
     "userPermissions": []
   },

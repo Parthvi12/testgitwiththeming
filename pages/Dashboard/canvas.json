@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 74,
+          "version": 76,
           "minHeight": 900,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -1249,7 +1249,7 @@
                         }
                       ],
                       "labelStyle": "BOLD",
-                      "inputType": "TEXT",
+                      "inputType": "MULTI_LINE_TEXT",
                       "isDisabled": false,
                       "key": "g260mz2caw",
                       "labelTextSize": "0.875rem",
@@ -1699,7 +1699,7 @@
                         }
                       ],
                       "labelStyle": "BOLD",
-                      "inputType": "TEXT",
+                      "inputType": "MULTI_LINE_TEXT",
                       "isDisabled": false,
                       "key": "g260mz2caw",
                       "labelTextSize": "0.875rem",
@@ -1995,21 +1995,7 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Dashboard_assetsByMake",
-              "name": "assetsByMake",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.type.x"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Dashboard_assignedAssets",
               "name": "assignedAssets",
@@ -2032,6 +2018,18 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Dashboard_assetsByMake",
+              "name": "assetsByMake",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.type.x"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
