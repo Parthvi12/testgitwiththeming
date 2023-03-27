@@ -4011,10 +4011,10 @@
                           "children": {
                             "id": {
                               "children": {},
-                              "dataType": "string",
+                              "dataType": "number",
                               "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.id))(assetDetailsForm.sourceData, assetDetailsForm.formData, assetDetailsForm.fieldState)}}",
-                              "fieldType": "Text Input",
-                              "sourceData": "",
+                              "fieldType": "Number Input",
+                              "sourceData": 1000,
                               "isCustomField": false,
                               "accessor": "id",
                               "identifier": "id",

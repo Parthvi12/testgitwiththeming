@@ -19,7 +19,6 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  if (assetTypeSelect.selectedOptionValue.length == 0) {\n    return getAssets.data;\n  } else {\n    return getAssets.data.filter(word => word.type.toLowerCase().includes(assetTypeSelect.selectedOptionValue));\n  }\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -33,9 +32,6 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n  if (assetTypeSelect.selectedOptionValue.length == 0) {\n    return getAssets.data;\n  } else {\n    return getAssets.data.filter(word => word.type.toLowerCase().includes(assetTypeSelect.selectedOptionValue));\n  }\n}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

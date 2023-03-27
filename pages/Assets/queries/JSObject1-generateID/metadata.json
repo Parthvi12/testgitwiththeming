@@ -19,7 +19,6 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  const lastID = getAssets.data[0].id;\n  const newID = lastID + 1;\n  return newID;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -33,9 +32,6 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n  const lastID = getAssets.data[0].id;\n  const newID = lastID + 1;\n  return newID;\n}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

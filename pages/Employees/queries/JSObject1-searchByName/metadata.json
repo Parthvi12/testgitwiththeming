@@ -19,7 +19,6 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  if (searchName.text.length == 0) {\n    return getEmployees.data;\n  } else {\n    return getEmployees.data.filter(word => word.first_name.toLowerCase().includes(searchName.text.toLowerCase()));\n  }\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -33,9 +32,6 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n  if (searchName.text.length == 0) {\n    return getEmployees.data;\n  } else {\n    return getEmployees.data.filter(word => word.first_name.toLowerCase().includes(searchName.text.toLowerCase()));\n  }\n}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
