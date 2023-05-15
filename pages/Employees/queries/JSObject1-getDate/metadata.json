@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "updateChart",
-    "fullyQualifiedName": "JSObject1.updateChart",
+    "name": "getDate",
+    "fullyQualifiedName": "JSObject1.getDate",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,16 +13,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Dashboard",
-    "collectionId": "Dashboard_JSObject1",
+    "pageId": "Employees",
+    "collectionId": "Employees_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n  await storeValue('type', typePieChart.selectedDataPoint);\n  assetsByMake.run();\n  return assetsByMake.data;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": true
+      "isAsync": false
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -33,15 +32,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "async () => {\n  await storeValue('type', typePieChart.selectedDataPoint);\n  assetsByMake.run();\n  return assetsByMake.data;\n}"
-    ],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Dashboard_JSObject1.updateChart",
+  "id": "Employees_JSObject1.getDate",
   "deleted": false,
-  "gitSyncId": "63a3fa5caae55a4a8ef14509_2022-12-22T06:34:14.928691Z"
+  "gitSyncId": "63a3fa5caae55a4a8ef14509_2022-12-22T06:34:14.928164Z"
 }
