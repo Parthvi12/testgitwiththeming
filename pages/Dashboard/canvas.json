@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1350,
+          "bottomRow": 1270,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 79,
           "minHeight": 900,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -53,7 +53,7 @@
                   "widgetName": "Canvas7",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 390,
+                  "bottomRow": 160,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -295,7 +295,7 @@
                   "widgetName": "Canvas1Copy1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 130,
+                  "bottomRow": 140,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -495,7 +495,7 @@
                   "widgetName": "Canvas1CopyCopy1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 130,
+                  "bottomRow": 140,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -695,7 +695,7 @@
                   "widgetName": "Canvas1CopyCopyCopy",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 130,
+                  "bottomRow": 150,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -1995,7 +1995,21 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
+            {
+              "id": "Dashboard_assetsByMake",
+              "name": "assetsByMake",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.type.x"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
             {
               "id": "Dashboard_assignedAssets",
               "name": "assignedAssets",
@@ -2018,18 +2032,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Dashboard_assetsByMake",
-              "name": "assetsByMake",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.type.x"
-              ],
               "timeoutInMillisecond": 10000
             }
           ]
