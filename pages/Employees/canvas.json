@@ -3944,8 +3944,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "employeeList.selectedItem.first_name",
-                "(assetsAssigned.pageNo - 1) * assetsAssigned.pageSize"
+                "(assetsAssigned.pageNo - 1) * assetsAssigned.pageSize",
+                "employeeList.selectedItem.first_name"
               ],
               "timeoutInMillisecond": 10000
             },
