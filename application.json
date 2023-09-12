@@ -33,19 +33,6 @@
       "showSignIn": true
     }
   },
-  "publishedApplicationDetail": {
-    "navigationSetting": {
-      "showNavbar": true,
-      "orientation": "side",
-      "navStyle": "sidebar",
-      "position": "static",
-      "itemStyle": "text",
-      "colorStyle": "theme",
-      "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "showSignIn": true
-    }
-  },
   "color": "#FFDEDE",
   "icon": "alien",
   "unpublishedAppLayout": {
